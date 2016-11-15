@@ -1,0 +1,101 @@
+/* Author: Jake Aubrey
+	date: 11/10/2016
+*/
+/* font thingy */
+
+@font-face {
+   font-family: 'CloisterBlack';
+   src: url('CloisterBlack.eot');
+   src: local('☺'), 
+        url('CloisterBlack.woff') format('woff'), 
+        url('CloisterBlack.ttf') format('truetype'), 
+        url('CloisterBlack.svg#cloister') format('svg');
+}
+
+
+/* body below */
+
+body
+{
+background-color: white;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* nav stuff */
+
+
+nav ul li {
+	background-color: rgb(248,175,175);
+	line-height: 3.5em;
+	padding-left: 0px;
+	list-style-type: none;
+	text-indent: 5px;
+}
+nav ul li:first-list: {
+	font-size: 150%;
+	font-variant: small-caps;
+	font-variant: bold;
+	
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	
+}
+nav ul li:hover {
+	color: yellow;
+	background-color: rgb(148,51,62);
+	
+}
+
+/* figure caption stuff below */
+
+figure {background-color: rgb(248,175,175);
+	padding-left: 10px;
+	
+}
+img{margin-left: 1em;}
+figure figcaption {text-align: center;
+font-size: 14px;
+font-style: italic;}
+
+/* section styles */
+section h1 {
+	background-color: rgb(148,51,62);
+	color: white;
+	font-family: cloisterblack, fantasy;
+	font-size: 2.5em;
+	letter-spacing: 0.3em;
+	line-height: 2em;
+	text-indent: 5px;
+}
+
+section h2{ 
+background-color: rgb(182,134,52);
+	color: white;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: normal;
+	letter-spacing: 0.7em;
+	text-indent: 1em;
+}
+
+/* list images */
+
+.sectionu { list-style-image: url("flake.png");}
+
+
+footer address {
+	background-color: rgb(148, 51, 62);
+	color: white;
+	font-style: normal;
+	font-variant: small-caps;
+	font-size: 0.8em;
+	line-height: 4em;
+	text-align: center;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	
+}
+
+
+
+
